@@ -10,11 +10,8 @@
 		<div class="login-form">
 			<div class="login-title">
 				<el-button link :class="loginType === 'account' ? 'account' : ''" @click="loginSwitch('account')">{{ $t('app.signIn') }}</el-button>
-				<el-button link :class="loginType === 'mobile' ? 'account' : ''" @click="loginSwitch('mobile')">{{ $t('app.mobileSignIn') }}</el-button>
 			</div>
 			<account v-if="loginType === 'account'" />
-			<mobile v-if="loginType === 'mobile'" />
-			<third />
 		</div>
 	</div>
 </template>

@@ -1,16 +1,7 @@
 <template>
 	<div class="navbar-right">
 		<Lang />
-		<ComponentSize />
-		<a href="https://maku.net" target="_blank">
-			<svg-icon icon="icon-earth"></svg-icon>
-		</a>
-		<a href="https://github.com/makunet/maku-admin" target="_blank">
-			<svg-icon icon="icon-github-fill"></svg-icon>
-		</a>
-		<a href="https://gitee.com/makunet/maku-admin" target="_blank">
-			<svg-icon icon="icon-gitee-fill-round"></svg-icon>
-		</a>
+		<!--		<ComponentSize />-->
 		<Search />
 		<Fullscreen />
 		<User />
